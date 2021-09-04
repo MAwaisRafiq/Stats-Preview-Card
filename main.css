@@ -161,11 +161,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.item4 {
-  background-color: #aa5cdb;
-  background-blend-mode: multiply;
-}
-
 @media (max-width: 1100px) {
   .item4 {
     background-image: url(/images/image-header-mobile.jpg);
@@ -176,6 +171,8 @@ body {
     margin: auto;
     margin-right: 0px;
     margin-bottom: 42px;
+    background-color: #aa5cdb;
+    background-blend-mode: multiply;
   }
 }
 
@@ -186,6 +183,8 @@ body {
     margin: auto;
     margin-right: 0px;
     background-image: url(/images/image-header-desktop.jpg);
+    background-color: #aa5cdb;
+    background-blend-mode: multiply;
   }
 }
 /*# sourceMappingURL=main.css.map */
