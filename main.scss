@@ -1,0 +1,74 @@
+@import 'abstracts/variables';
+@import 'abstracts/media-Queries';
+
+body{
+    background-color: $Main-Background;
+    color: $Slightly-main-paragraph;
+    font-size: $Font-size;
+    @media (max-width:1100px) {
+        text-align: center;
+    }
+
+}
+
+.Card{
+
+    margin: 25% auto;
+    background-color: $Card-Background;
+    border-radius: 10px;
+    overflow: hidden;
+    @include Flex-Toggle;
+    flex-direction: row-reverse;
+    @include Res-Card;
+}
+
+
+.items{
+
+    @include Layout-Margins;
+}
+
+.item1{
+    font-family: $Font-Inter;
+    font-weight: Inter-Weight("bold");
+    color: $White-Main-Heading;
+    
+    @include Bottom-Heading-Margin;
+    div{
+        display: inline;
+        color: $Accent;
+    }
+}
+
+.item2{
+    color: $Slightly-main-paragraph;
+    line-height: 1.7;
+    @include Bottom-Paragraph-Margin;
+}
+
+.item3{
+
+    @include Flex-Toggle;
+    @include Stats-Margins;
+
+    font-family: $Font-Inter;
+
+    #{&}__heading{
+        font-weight: Inter-Weight("bold");
+        font-size: 18px;
+        color: $Slightly-stat-headings;
+        margin-bottom: 15px;
+    }
+    #{&}__text{
+        font-weight: Inter-Weight("regular");
+        font-size: 12px;
+        text-transform: uppercase;
+        color: $Slightly-main-paragraph;
+    }
+
+}
+.item4{
+
+    @include Image-Margins;
+
+}

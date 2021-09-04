@@ -1,0 +1,122 @@
+
+@mixin Res-Card {
+    @media (max-width: 1100px) {
+        width: 327px;
+        height: 780px;
+        
+    }
+    @media (min-width: 1100px) {
+        width: 1100px;
+        height: 445px;
+        margin-top: 230px;
+    }
+}
+
+@mixin Flex-Toggle {
+
+    @media (max-width: 1100px) {
+       
+        display: block;
+        
+    }
+    @media (min-width: 1100px) {
+       
+        display: flex;
+    }
+}
+
+@mixin Layout-Margins {
+    @media (max-width: 1100px) {
+       
+        text-align: center;
+        margin: auto;
+        width: 256px;
+    }
+    @media (min-width: 1100px) {
+       
+        text-align: left;
+        margin: auto;
+        margin-left: 74px;
+        margin-top: 65px;
+        max-width: 377px;
+    }
+    
+}
+
+@mixin Bottom-Heading-Margin {
+    
+    @media (max-width: 1100px) {
+        margin-bottom: 22px;
+        margin-top: 42px;
+        font-size: 26px;
+    }
+    @media (min-width: 1100px) {
+        margin-bottom: 36px;
+        font-size: 34px;
+    }
+    
+}
+
+
+@mixin Bottom-Paragraph-Margin {
+    
+    @media (max-width: 1100px) {
+        margin-bottom: 28px;
+    }
+    @media (min-width: 1100px) {
+        margin-bottom: 80px;
+
+    }
+    
+}
+
+
+@mixin Stats-Margins {
+    @media (max-width: 1100px) {
+       
+        div{
+            margin: auto;
+            & > *{
+                margin-bottom: 32px;
+            }
+
+        }
+        
+    }
+    @media (min-width: 1100px) {
+        div{
+            margin-right: 28px;
+        }
+
+    }
+    
+}
+
+
+@mixin Image-Margins {
+    @media (max-width: 1100px) {
+        
+        background-image: url(/images/image-header-mobile.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 325px;
+        height: 238px;
+        margin: auto;
+        margin-right: 0px;
+        margin-bottom: 42px;
+        
+        
+    }
+    @media (min-width: 1100px) {
+
+        width: 540px;
+        height: 446px;
+        margin: auto;
+        margin-right: 0px;
+        background-image: url(/images/image-header-desktop.jpg);
+
+    }
+    
+}
+
+
