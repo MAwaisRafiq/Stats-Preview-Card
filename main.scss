@@ -5,6 +5,7 @@ body{
     background-color: $Main-Background;
     color: $Slightly-main-paragraph;
     font-size: $Font-size;
+    font-family: $Font-Lexend-Deca;
     @media (max-width:1100px) {
         text-align: center;
     }
@@ -51,7 +52,7 @@ body{
     @include Flex-Toggle;
     @include Stats-Margins;
 
-    font-family: $Font-Inter;
+    font-family: $Font-Lexend-Deca;
 
     #{&}__heading{
         font-weight: Inter-Weight("bold");
@@ -60,6 +61,7 @@ body{
         margin-bottom: 15px;
     }
     #{&}__text{
+        font-family: $Font-Lexend-Deca;
         font-weight: Inter-Weight("regular");
         font-size: 12px;
         text-transform: uppercase;

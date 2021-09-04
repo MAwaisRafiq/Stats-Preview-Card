@@ -96,7 +96,7 @@
 @mixin Image-Margins {
     @media (max-width: 1100px) {
         
-        background-image: url(/images/image-header-mobile.jpg);
+        background-image: url(images/image-header-mobile.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         width: 325px;
@@ -115,7 +115,7 @@
         height: 446px;
         margin: auto;
         margin-right: 0px;
-        background-image: url(/images/image-header-desktop.jpg);
+        background-image: url(images/image-header-desktop.jpg);
         background-color: $Accent;
         background-blend-mode: multiply;
     

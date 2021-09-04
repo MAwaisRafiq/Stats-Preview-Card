@@ -4,6 +4,7 @@ body {
   background-color: #090b1a;
   color: rgba(255, 255, 255, 0.6);
   font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 @media (max-width: 1100px) {
@@ -73,7 +74,7 @@ body {
 
 .item1 {
   font-family: "Inter", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   color: white;
 }
 
@@ -115,7 +116,7 @@ body {
 }
 
 .item3 {
-  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 @media (max-width: 1100px) {
@@ -148,13 +149,14 @@ body {
 }
 
 .item3 .item3__heading {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.75);
   margin-bottom: 15px;
 }
 
 .item3 .item3__text {
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
@@ -163,7 +165,7 @@ body {
 
 @media (max-width: 1100px) {
   .item4 {
-    background-image: url(/images/image-header-mobile.jpg);
+    background-image: url(images/image-header-mobile.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 325px;
@@ -182,7 +184,7 @@ body {
     height: 446px;
     margin: auto;
     margin-right: 0px;
-    background-image: url(/images/image-header-desktop.jpg);
+    background-image: url(images/image-header-desktop.jpg);
     background-color: #aa5cdb;
     background-blend-mode: multiply;
   }
